@@ -1,0 +1,25 @@
+doctype html
+html(lang = "es")
+    head
+        title = "Registro de usuario"
+    body
+        h1 Registro de Usuarios
+        form(method="post" action="/insertaUsuario")
+            | Introduzca el ID del usuario
+            input(type="text" id="id" name="id" length = "50")
+            br
+            | Introduzca el nombre del usuario:
+            input(type="text" id="nombre" name="nombre" length = "50")
+            br
+            | Introduzca el apellido  del usuario:
+            input(type="text" id="apellidos" name="apellidos" length = "50")
+            br
+            | Introduzca la direccion del usuario:
+            input(type="text" id="direccion" name="direccion" length = "50")
+            br
+            | Introduzca el telefono del usuario:
+            input(type="text" id="telefono" name="telefono" length = "50")
+            br
+            input(type="submit" value="Guardar")
+            input(type="reset" value="Limpiar")
+            a(href = "/") volver al inicio

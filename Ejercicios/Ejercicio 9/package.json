@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-9",
+  "version": "1.0.0",
+  "description": "Ejercicio 9 de node.js",
+  "main": "programa.js",
+  "dependencies": {
+    "stdio": "^0.2.7"
+  },
+  "devDependencies": {
+    "stampit": "1.1.x",
+    "stdio": "0.2.7"
+  },
+  "scripts": {
+    "test": "node programa.js"
+  },
+  "keywords": [
+    "Hotel",
+    "Habitacion",
+    "Gerente"
+  ],
+  "author": "Fernando Ortiz",
+  "license": "ISC"
+}

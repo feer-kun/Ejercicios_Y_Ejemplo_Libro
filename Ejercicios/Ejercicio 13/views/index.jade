@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        title P&aacute;gina con JADE
+        link(rel="stylesheet", href="/stylesheets/estilos.css")
+    body
+    #contenedor
+        #cabecera
+            each enlace in enlaces
+                div(class="enlace")
+                    a(class = "boton" href="#{enlace.direccion}") #{enlace.texto}
+            .clear
+        #parteCentral
+            #descripcion
+                p #{descripcion}
+            #contenido
+                p #{contenido}
+            .clear
+        #piePagina
+            | Aqu&iacute; va el pie de p&aacute;gina.
+    

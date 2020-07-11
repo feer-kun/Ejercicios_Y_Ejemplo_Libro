@@ -1,0 +1,70 @@
+body {
+  background-color: gray;
+}
+
+div {
+  border: 1px solid black;
+}
+
+#contenedor {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#contenedor #cabecera {
+  color: white;
+  background-color: red;
+}
+
+#contenedor #cabecera .enlace {
+  border: none;
+  width: 20%;
+  float: left;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#contenedor #cabecera .enlace .boton,
+#contenedor #cabecera .enlace .boton:visited {
+  margin: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  background-color: silver;
+}
+
+#contenedor #cabecera .enlace .boton:hover,
+#contenedor #cabecera .enlace .boton:visited {
+  background-color: gray;
+}
+
+#contenedor #parteCentral {
+  background-color: olive;
+}
+
+#contenedor #parteCentral #descripcion {
+  width: 29%;
+  border: none;
+  float: left;
+  padding: 10px;
+}
+
+#contenedor #parteCentral #contenido {
+  width: 60%;
+  border: none;
+  border-left: 2px solid black;
+  float: left;
+  padding: 10px;
+}
+
+#contenedor #parteCentral #descripcion p,
+#contenedor #parteCentral #contenido p {
+  text-align: justify;
+}
+
+.clear {
+  clear: both;
+  border: 0px;
+}

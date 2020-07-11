@@ -1,0 +1,23 @@
+doctype html
+html(lang = "es")
+    head
+        title = "listado de usuarios"
+    body
+        h1 Listado de usuarios
+        ul
+            each usuario, i in usuarios
+                li
+                    | Usuario #{i+1}
+                    ul
+                        li
+                            | ID: #{usuario.id}
+                        li
+                            | NOMBRE: #{usuario.nombre}
+                        li
+                            | APELLIDOS: #{usuario.apellidos} 
+                        li
+                            | DIRECCION: #{usuario.direccion} 
+                        li
+                            | TELEFONO: #{usuario.telefono}
+        a(href = "/") Volver al inicio      
+            

@@ -1,0 +1,21 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "biblioteca usando npm",
+  "main": "programa.js",
+  "dependencies": {
+    "stampit": "1.1.x",
+    "stdio": "0.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"\" && exit 1"
+  },
+  "keywords": [
+    "libro",
+    "autor",
+    "biblioteca"
+  ],
+  "author": "Fernando ortiz",
+  "license": "ISC"
+}

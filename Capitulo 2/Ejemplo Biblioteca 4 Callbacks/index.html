@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>QUnit Example</title>
+    <link rel="stylesheet" href="./qunit-1.16.0.css" />
+  </head>
+  <body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <div id="formulario">
+      <form>
+        Nombre del Autor: <input type="text" id="nombre" name="nombre" /> <br /><br />
+        Fecha de nacimiento del autor: <input type="text" id="fnacimiento" name="fnacimiento" />
+        <br /><br />
+        Nacionalidad: <input type="text" id="nacionalidad" name="nacionalidad" /> <br /><br />
+        <input id="procesar" type="submit" value="Procesar" />
+      </form>
+    </div>
+
+    <script src="/unit-1.16.0.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="./Js/vista.js"></script>
+    <script src="./Js/Autor.js"></script>
+    <script src="./Js/libro.js"></script>
+    <script src="./Js/controlador.js"></script>
+  </body>
+</html>
